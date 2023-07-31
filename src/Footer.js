@@ -5,24 +5,24 @@ function Footer() {
         <footer>
             <h3>Navigation</h3>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order Online</li>
-                <li>Login</li>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/'>About</a></li>
+                <li><a href='/'>Menu</a></li>
+                <li><a href='/'>Reservations</a></li>
+                <li><a href='/'>Order Online</a></li>
+                <li><a href='/'>Login</a></li>
             </ul>
             <h3>Contact</h3>
             <ul>
-                <li>Address</li>
-                <li>Phone Number</li>
-                <li>Email</li>
+                <li><a href='/'>Address</a></li>
+                <li><a href='/'>Phone Number</a></li>
+                <li><a href='/'>Email</a></li>
             </ul>
             <h3>Social Media</h3>
             <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
+                <li><a href='/'>Facebook</a></li>
+                <li><a href='/'>Instagram</a></li>
+                <li><a href='/'>Twitter</a></li>
             </ul>
 
         </footer>
