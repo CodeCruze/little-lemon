@@ -28,19 +28,19 @@ function Navig(){
           <a class="nav-link active" aria-current="page" href="/">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">ABOUT</a>
+          <a class="nav-link" href="/About">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">MENU</a>
+          <a class="nav-link" href="/Menu">MENU</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">RESERVATIONS</a>
+          <a class="nav-link" href="/booking">RESERVATIONS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">ORDER ONLINE</a>
+          <a class="nav-link" href="/OrderOnline">ORDER ONLINE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">LOGIN</a>
+          <a class="nav-link" href="/Login">LOGIN</a>
         </li>
       </ul>
       <form class="d-flex" role="search">

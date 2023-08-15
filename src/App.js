@@ -5,19 +5,18 @@ import Main from './Main';
 import Footer from './Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
+
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <Main />
-      <Footer />
-    </>
+    <Header />
+    <Nav />
+    <Main />
+    <Footer />
+  </>
   );
 }
 

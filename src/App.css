@@ -1,7 +1,7 @@
 .body-top {
   display: flex | inline-flex;
   align-self: center;
-  width: 50%
+  width: 50%;
 }
 
 .sel-comp{
@@ -10,4 +10,27 @@
 .body-bottom{
   display: flex | inline-flex;
   padding: 5%;
+}
+
+.top-img{
+  background-image: 'little-lemon\src\restaurant.jpg';
+}
+
+.res-font{
+  color: yellow;
+}
+.subt-font{
+  color: white;
+}
+.para-font{
+  color: white;
+}
+
+.banner{
+  background-color: #495E57;
+  height: 50vh;
+}
+
+.banImg{
+  border-radius: 10%;
 }
