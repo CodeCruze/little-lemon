@@ -5,11 +5,11 @@ import Col from 'react-bootstrap/Col';
 
 function Footer() {
     return(
-        <footer>
+        <footer className='footer'>
             <Container>   
-                <Row>
+                <Row className='pt-5'>
                     <Col>
-                        <h3>Navigation</h3>
+                        <h3 className='res-font'>Navigation</h3>
                         <ul>
                             <li><a href='/'>Home</a></li>
                             <li><a href='/'>About</a></li>
@@ -20,7 +20,7 @@ function Footer() {
                         </ul>
                     </Col>
                     <Col>
-                        <h3>Contact</h3>
+                        <h3 className='res-font'>Contact</h3>
                         <ul>
                             <li><a href='/'>Address</a></li>
                             <li><a href='/'>Phone Number</a></li>
@@ -28,7 +28,7 @@ function Footer() {
                         </ul>
                     </Col>
                     <Col>
-                        <h3>Social Media</h3>
+                        <h3 className='res-font'>Social Media</h3>
                         <ul>
                             <li><a href='/'>Facebook</a></li>
                             <li><a href='/'>Instagram</a></li>

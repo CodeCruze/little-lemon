@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button';
+
 import Image from 'react-bootstrap/Image';
 import Food from './restauranfood.jpg';
 
@@ -21,14 +21,9 @@ function CallToAction() {
                         <Row className='para-font'>
                             <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
                         </Row>
-                        <Row>
-                            <Button variant='warning'>
-                                Reserve a Table
-                            </Button>
-                        </Row>
                     </Col>
                     <Col sm={6} className='text-center banImg'>
-                            <Image src={Food} fluid rounded width="60%" />
+                            <Image src={Food} fluid rounded width={"60%"} />
                     </Col>
                 </Row>
             </Container>

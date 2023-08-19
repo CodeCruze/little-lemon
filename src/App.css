@@ -34,3 +34,34 @@
 .banImg{
   border-radius: 10%;
 }
+
+.footer{
+  background-color: #495E57;
+  height: 50vh;
+  padding-top: 50px;
+}
+
+ul > li{
+  list-style-type: none;
+}
+
+li > a{
+  text-decoration: none;
+  color: white;
+}
+
+.book-mid{
+  padding: 50px;
+  text-align: center;
+}
+
+.name {
+  padding-top: 25px;
+}
+
+@media only screen and (max-width: 600px){
+  .banImg{
+    width: 10px;
+  }
+
+}
