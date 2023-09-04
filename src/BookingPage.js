@@ -2,17 +2,21 @@ import React from 'react';
 import BookingForm from './BookingForm';
 import TopPart from './TopPart'
 import Name from './Name'
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useReducer } from "react";
+import { fetchAPI } from "./bookingAPI";
 
 function BookingPage(){
-
-    const [date, setDate] = useState(null);
-    const [time, setTime] = useState(null);
-    const [guests, setGuests] = useState(null);
-    const [occasion, setOccasion] = useState(null);
     const [name, setName] = useState(null);
-    const [submitted, setSubmitted] = useState(false);
 
+    function updateTimes(date) {
+        return fetchAPI(date);
+      }
+    
+      const output = fetchAPI(new Date());
+    
+      const [availableTimes, dispatch] = useReducer(updateTimes, output);
+    
 
     return(
         <main>
@@ -21,17 +25,10 @@ function BookingPage(){
             name = {name}
             setName = {setName}
              />
+            
             <BookingForm 
-            date = {date}
-            setDate = {setDate}
-            time = {time}
-            setTime = {setTime}
-            guests = {guests}
-            setGuests = {setGuests}
-            occasion = {occasion}
-            setOccasion = {setOccasion}
-            submitted = {submitted}
-            setSubmitted = {setSubmitted}
+            availableTimes={availableTimes}
+            dispatch={dispatch}
             />
             
         </main>
