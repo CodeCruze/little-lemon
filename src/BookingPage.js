@@ -1,13 +1,10 @@
 import React from 'react';
 import BookingForm from './BookingForm';
 import TopPart from './TopPart'
-import Name from './Name'
-import { useState } from "react";
 import { useReducer } from "react";
 import { fetchAPI } from "./bookingAPI";
 
 function BookingPage(){
-    const [name, setName] = useState(null);
 
     function updateTimes(date) {
         return fetchAPI(date);
@@ -20,14 +17,10 @@ function BookingPage(){
 
     return(
         <main>
-            <TopPart />
-            <Name
-            name = {name}
-            setName = {setName}
-             />
-            
+            <TopPart />            
             <BookingForm 
             availableTimes={availableTimes}
+            updateTimes={updateTimes}
             dispatch={dispatch}
             />
             

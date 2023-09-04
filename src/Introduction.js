@@ -6,7 +6,6 @@ import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 import Restaurant from './restaurant.jpg';
 import Salad from './images/greek salad.jpg'
-import BookingForm from './BookingForm';
 
 function Introduction() {
   return (
@@ -31,8 +30,27 @@ function Introduction() {
                     </Col>
                     
                 </Row>
+                <Row className='py-5'>
+                    
+                    <Col className='pt-5'>
+                        <Row className=''>
+                            <h1>We Love Mediterranean Food!</h1>
+                        </Row>
+                        <Row className=''>
+                            <p>Take a look at our extensive menu. We love our traditional Mediterranean food, and we have put a more modern spin on these recipes.</p>
+                        </Row>
+                        <Row>
+                            <Button variant='warning'>
+                                See Where We Are Located
+                            </Button>
+                        </Row>
+                    </Col>
+                    <Col sm={6} className='text-center'>
+                            <Image src={Salad} fluid rounded />
+                    </Col>
+                    
+                </Row>
         </Container>
-        <BookingForm />
     </div>
     
   );

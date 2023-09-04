@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-export default function ReservationForm(props) {
+
+
+
+export default function BookingForm(props) {
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
   const [email, setEmail] = useState("");
@@ -165,7 +168,7 @@ export default function ReservationForm(props) {
             double-check your answer before submitting your reservation request.
           </p>
         </small>
-        <Link className="action-button" to="/confirmation">
+        <Link className="action-button" to="/confirmed">
           Book Table
         </Link>
       </div>
