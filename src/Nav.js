@@ -1,20 +1,10 @@
 import React from 'react';
 import logo from './Logo .svg';
+import menu from './images/Little Lemon Menu.jpg';
 
 
 function Navig(){
     return(
-        // <Navbar>
-        //     <img src={logo} alt="Logo"></img>
-        //     <ul>
-        //         <li><a href='/'>HOME</a></li>
-        //         <li><a href='/'>ABOUT</a></li>
-        //         <li><a href='/'>MENU</a></li>
-        //         <li><a href='/'>RESERVATIONS</a></li>
-        //         <li><a href='/'>ORDER ONLINE</a></li>
-        //         <li><a href='/'>LOGIN</a></li>
-        //     </ul>
-        // </Navbar>
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -31,7 +21,7 @@ function Navig(){
           <a class="nav-link" href="/About">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Menu">MENU</a>
+          <a class="nav-link" href={menu}>MENU</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/booking">RESERVATIONS</a>
