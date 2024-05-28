@@ -32,7 +32,7 @@ function Introduction() {
                 </Row>
                 <Row className='py-5'>
                     
-                    <Col className='pt-5'>
+                    <Col xs={{ order: 1}} md={{ order: 0}} className='pt-5'>
                         <Row className=''>
                             <h1>We Love Mediterranean Food!</h1>
                         </Row>
@@ -45,7 +45,7 @@ function Introduction() {
                             </Button>
                         </Row>
                     </Col>
-                    <Col sm={6} className='text-center'>
+                    <Col sm={6} xs={{ order: 0}} className='text-center'>
                             <Image src={Salad} fluid rounded />
                     </Col>
                     

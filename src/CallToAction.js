@@ -9,9 +9,9 @@ import Food from './restauranfood.jpg';
 function CallToAction() {
   return (
     <div className='banner'>
-       <Container>
+       <Container fluid>
                 <Row>
-                    <Col className='pt-5'>
+                    <Col xs={{ order: 1}} className='pt-5'>
                         <Row className='res-font'>
                             <h1>Little Lemon</h1>
                         </Row>
@@ -27,8 +27,8 @@ function CallToAction() {
                             </Button>
                         </Row>
                     </Col>
-                    <Col sm={6} className='text-center banImg'>
-                            <Image src={Food} fluid rounded width="60%" />
+                    <Col sm={6} xs={{ order: 0}} className='text-center banImg order-md-1 order-sm-0'>
+                            <Image src={Food} fluid rounded width="65%" />
                     </Col>
                 </Row>
             </Container>
