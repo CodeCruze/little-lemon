@@ -15,12 +15,12 @@ function About() {
       <Container>
         <Row>
           <Col className='d-flex justify-content-center align-items-center pt-5'>
-            <Image src={MarioAdrian} rounded fluid width={"50%"}></Image>
+            <Image className='about-img' src={MarioAdrian} rounded></Image>
           </Col>
         </Row>
       </Container>
-      <Container>
-        <Row className='d-flex align-items-center justify-content-center'>
+      <Container className='d-flex align-items-center justify-content-center'>
+        <Row className='about-sec'>
           <Col className='mb-auto py-5'>
             <h1 className='text-center py-5'>About Us</h1>
             <p className='text-center pb-5'>We are a group of passionate culinary entreprenuers, who are aiming to bring the Mediterranean genre of food to the modern era. We love our Mediterranean roots, and are proud of the incredible recipes passed down to us from our ancestors. We also love modern life, and we love the styles and artistic expression of the modern era. So we decided to put a modern twist on our traditional Mediterranean recipes!</p>

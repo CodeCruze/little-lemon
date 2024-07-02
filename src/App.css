@@ -15,14 +15,26 @@
   background-image: 'little-lemon\src\restaurant.jpg';
 }
 
+.banner-text{
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 20px;
+  width: 50%;
+}
+
 .res-font{
   color: yellow;
+  font-weight: bold;
+  font-size: 4vw;
 }
 .subt-font{
   color: white;
+  
 }
 .para-font{
   color: white;
+  font-size: 2vw;
 }
 
 .banner{
@@ -58,13 +70,35 @@ li > a{
   padding-top: 25px;
 }
 
-@media only screen and (max-width: 600px){
-  .banImg{
-    width: 10px;
-    padding-top: 50px;
+.about-sec{
+  max-width: 50%;
+}
+.about-img{
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 768px){
+  .res-font{
+    color: yellow;
+    font-weight: bold;
+    font-size: 6vw;
   }
-  .banner{
-    height: 80vh;
+  .subt-font{
+    color: white;
+    
+  }
+  .para-font{
+    color: white;
+    font-size: 3.5vw;
+  }
+  .banner-text{
+    width: 100%;
+  }
+  .about-sec{
+    max-width: 100%;
+  }
+  .about-img{
+    max-width: 100%;
   }
 }
 
